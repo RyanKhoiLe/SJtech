@@ -9,11 +9,15 @@ body {
 
 h1 {
   padding-left: 10px;
-  color: #F47920;
+  color: #FEC10D;
   font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 h2{
+  color: #2E3092;
+}
+
+hr{
   color: #2E3092;
 }
 
