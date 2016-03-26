@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: gray;
   font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
@@ -16,6 +16,11 @@ h1 {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+#headBar{
+  width: 100%;
+  background-color: black;
 }
 
 .video{
