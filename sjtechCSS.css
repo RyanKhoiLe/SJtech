@@ -22,7 +22,7 @@ h1 {
 }
 
 #headBar{
-  position: relative;
+  position: absolute;
   margin-top: 0px;
   width: 100%;
   background-color: black;
