@@ -31,6 +31,10 @@ hr{
   box-shadow: 0 0 8px 1px #2E3092;
 }
 
+strong{
+  color: #F47920;
+}
+
 a:link{
   color: #F47920;
   text-decoration: none;
