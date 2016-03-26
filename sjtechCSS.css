@@ -33,7 +33,7 @@ hr{
   margin: 0 auto;
   text-align: center;
   background-color: gray;
-  background: -webkit-gradient(left top, right bottom, #FEC10D, #F47920);
+  background: -webkit-linear-gradient(left top, right bottom, #FEC10D, #F47920);
 }
 
 #headBar{
