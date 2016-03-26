@@ -15,8 +15,9 @@ h1 {
 #wrapper {
   position: absolute;
   border: 1px solid black;
-  top: 100px;
+  top: 80px;
   width: 100%;
+  margin-top: 0;
   margin: 0 auto;
   text-align: center;
 }
