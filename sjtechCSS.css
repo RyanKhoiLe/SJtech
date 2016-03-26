@@ -19,7 +19,7 @@ h2{
 }
 
 hr{
-  height: 2px;
+  height: 0px;
   color: #2E3092;
   background-color: #2E3092;
   box-shadow: 0 0 10px 1px #2E3092;
@@ -35,7 +35,6 @@ hr{
   margin: 0 auto;
   text-align: center;
   background-color: white;
-
 }
 
 #headBar{
