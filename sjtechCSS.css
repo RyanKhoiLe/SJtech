@@ -19,6 +19,7 @@ h2{
 
 hr{
   color: #2E3092;
+  background-color: #2E3092;
 }
 
 #wrapper {
@@ -31,7 +32,7 @@ hr{
   margin: 0 auto;
   text-align: center;
   background-color: gray;
-  background: -webkit-linear-gradient(#F47920, #FEC10D);
+  background: -webkit-linear-gradient(#FEC10D, #F47920);
 }
 
 #headBar{
