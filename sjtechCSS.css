@@ -9,8 +9,12 @@ body {
 
 h1 {
   padding-left: 10px;
-  color: lightgray;
+  color: #2E3092;
   font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+h2{
+  color: #2E3092;
 }
 
 #wrapper {
@@ -23,7 +27,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   background-color: gray;
-  background: -webkit-linear-gradient(lightgray, gray);
+  background: -webkit-linear-gradient(#F47920, #FEC10D);
 }
 
 #headBar{
