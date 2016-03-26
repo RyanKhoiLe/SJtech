@@ -13,9 +13,9 @@ h1 {
 }
 
 #wrapper {
-  position: relative;
+  position: absolute;
   border: 1px solid black;
-  top: 0px;
+  top: 100px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
