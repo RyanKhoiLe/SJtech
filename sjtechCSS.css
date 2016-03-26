@@ -23,9 +23,14 @@ h1 {
 
 #headBar{
   position: relative;
-  top: 0px;
+  margin-top: 0px;
   width: 100%;
   background-color: black;
+}
+
+#bodyBox{
+  position: relative;
+  top: 0px;
 }
 
 .video{
