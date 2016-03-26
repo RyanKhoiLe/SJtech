@@ -8,11 +8,12 @@ body {
 }
 
 h1 {
-  color: gray;
+  color: lightgray;
   font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 #wrapper {
+  border: 1px solid black;
   width: 80%;
   margin: 0 auto;
   text-align: center;
