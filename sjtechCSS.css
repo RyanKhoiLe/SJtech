@@ -4,8 +4,9 @@
 
 body{
   background-color: #E6E6FA;
+  font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;;
 }
 
 h1{
-  color: yellow;
+  color: blue;
 }
