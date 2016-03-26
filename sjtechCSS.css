@@ -9,7 +9,7 @@ body {
 
 h1 {
   padding-left: 10px;
-  color: #F47920;
+  color: #FEC10D;
   font-family: "Roboto", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
@@ -33,7 +33,7 @@ hr{
   margin: 0 auto;
   text-align: center;
   background-color: white;
-  //background: -webkit-linear-gradient(left top, #FEC10D, #F47920);
+
 }
 
 #headBar{
