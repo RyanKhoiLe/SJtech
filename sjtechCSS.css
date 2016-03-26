@@ -6,7 +6,7 @@ body {
   background-color: #E6E6FA;
   font-family: "Roboto", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
-logo {
+#logo {
   position: absolute;
   top: 5px;
   margin-left: 80%;
