@@ -9,12 +9,12 @@ body {
 
 h1 {
   padding-left: 10px;
-  color: #FEC10D;
+  color: #F47920;
   font-family: "Roboto", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 h2{
-  color: #2E3092;
+  color: #FEC10D;
   font-family: "Roboto", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
@@ -41,7 +41,7 @@ hr{
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: #2E3092;
+  background-color: #252B33;
 }
 
 #bodyBox{
