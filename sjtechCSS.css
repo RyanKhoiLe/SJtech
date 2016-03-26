@@ -4,17 +4,18 @@
 
 body {
   background-color: #E6E6FA;
-  font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-family: "Roboto", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 h1 {
   padding-left: 10px;
   color: #FEC10D;
-  font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-family: "Roboto", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 h2{
   color: #2E3092;
+  font-family: "Roboto", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 hr{
