@@ -30,6 +30,9 @@ hr{
   background-color: #2E3092;
   box-shadow: 0 0 8px 3px #2E3092;
 }
+hr:after{
+  content: "\00a0";  /* Prevent margin collapse */
+}
 
 strong{
   color: #F47920;
