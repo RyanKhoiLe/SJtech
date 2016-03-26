@@ -12,6 +12,9 @@ body {
   margin-left: 80%;
   height: 70%;
 }
+p{
+  color: white;
+}
 h1 {
   padding-left: 10px;
   color: #FEC10D;
