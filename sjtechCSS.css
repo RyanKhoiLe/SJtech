@@ -31,6 +31,20 @@ hr{
   box-shadow: 0 0 8px 1px #2E3092;
 }
 
+a:link{
+  color: #F47920;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2E3092;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 #wrapper {
   position: absolute;
   border: 0px solid #2E3092;
