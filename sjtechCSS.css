@@ -11,3 +11,8 @@ h1 {
   color: blue;
   font-family: "Trebuchet MS", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
