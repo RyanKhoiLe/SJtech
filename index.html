@@ -9,20 +9,7 @@
   </head>
   
   <body>
-  	<script>
-  		var input = document.getElementById('specialCode');
-  		var myButton = document.getElementById('enterCode');
-  		var searchLink = document.getElementById('searchLink');
-  		var searchLinkDisplay = document.getElementById('searchLinkDisplay');
-  		myButton.addEventListener("click", clickHandler, false);
-  		function clickHandler(){
-  			console.log("clicked" + input.value);
-  			if(input.value === "101"){
-  				searchLinkDisplay.innerHTML = "Earthquakes";
-  				searchLink.setAttribute('href',"earthquakes.html");
-  			}
-  		}
-  	</script>
+  
   	<div id="headBar">
     		<h1> SJ Tech DB </h1>
     		<a href="index.html"><img id="logo" src="techMuseumLogo.png" alt="sjtech"></a>
@@ -40,5 +27,19 @@
 	    <a href="http://ryankhoile.github.io/SJtech/JetPackChair.html"><img src="jetpackIcon.png"><br>Jetpack Chair</a>
 	
 	</div>
+		<script>
+  		var input = document.getElementById("specialCode");
+  		var myButton = document.getElementById("enterCode");
+  		var searchLink = document.getElementById("searchLink");
+  		var searchLinkDisplay = document.getElementById("searchLinkDisplay");
+  		myButton.addEventListener("click", clickHandler, false);
+  		function clickHandler(){
+  			console.log("clicked" + input.value);
+  			if(input.value === "101"){
+  				searchLinkDisplay.innerHTML = "Earthquakes";
+  				searchLink.setAttribute('href',"earthquakes.html");
+  			}
+  		}
+  	</script>
   </body>
 </html>
