@@ -8,7 +8,7 @@
 
 body {
   background-color: #E6E6FA;
-  font-family: "iron font";
+  font-family: Georgia, serif;
   
 }
 #logo {
@@ -23,12 +23,12 @@ p{
 h1 {
   padding-left: 10px;
   color: #FEC10D;
-  font-family: "iron font";
+  font-family: Georgia, serif;
 }
 
 h2{
   color: #FEC10D;
-  font-family: "iron font";
+  font-family: Georgia, serif;
 }
 li {
   font-size: 18px;
