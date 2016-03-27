@@ -7,8 +7,8 @@
 }
 
 #specialCode, textarea{
-  background-color: #E6E6FA;
-  color: blue;
+  border: 0px solid #2E3092;
+  box-shadow: 0 0 5px 3px #2E3092;
 }
 body {
   background-color: #E6E6FA;
