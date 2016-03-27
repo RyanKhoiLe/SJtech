@@ -2,13 +2,13 @@
 * Created by Khoi Le and Nikolai Flowers, March 25, 2016
 *//
 @font-face{
-  font-family:bebas;
-  src: url("ryankhoile.github.io/SJtech/fonts/BebasNeue.otf");
+  font-family:iron;
+  src: url("ryankhoile.github.io/SJtech/fonts/Iron & Brine.ttf");
 }
 
 body {
   background-color: #E6E6FA;
-  font-family:bebas;
+  font-family:iron;
   
 }
 #logo {
