@@ -3,7 +3,7 @@
 *//
 @font-face{
   font-family:iron;
-  src: "ironAndBrine.ttf";
+  src: url('ironAndBrine.ttf') format('truetype');
 }
 
 body {
