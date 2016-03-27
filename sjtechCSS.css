@@ -6,7 +6,7 @@
   src: url("http://ryankhoile.github.io/SJtech/ironAndBrine.ttf") format('truetype');
 }
 
-input[type="text"], text area{
+input[type="text"], textarea{
   background-color: #E6E6FA;
   border: none;
   box-shadow: 0 0 8px 3px #2E3092;
