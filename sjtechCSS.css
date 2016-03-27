@@ -6,9 +6,8 @@
   src: url("http://ryankhoile.github.io/SJtech/ironAndBrine.ttf") format('truetype');
 }
 
-#specialCode{
+#specialCode, textarea{
   color: blue;
-
 }
 body {
   background-color: #E6E6FA;
