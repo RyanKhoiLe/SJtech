@@ -8,7 +8,7 @@
 
 body {
   background-color: #E6E6FA;
-  font-family: Georgia, serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   
 }
 #logo {
@@ -23,12 +23,12 @@ p{
 h1 {
   padding-left: 10px;
   color: #FEC10D;
-  font-family: Georgia, serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 h2{
   color: #FEC10D;
-  font-family: Georgia, serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 li {
   font-size: 18px;
