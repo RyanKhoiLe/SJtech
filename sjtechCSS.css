@@ -2,13 +2,13 @@
 * Created by Khoi Le and Nikolai Flowers, March 25, 2016
 *//
 @font-face{
-  font-family:iron;
+  font-family:'iron';
   src: url('ironAndBrine.ttf') format('truetype');
 }
 
 body {
   background-color: #E6E6FA;
-  font-family:iron;
+  font-family:'iron';
   
 }
 #logo {
@@ -23,12 +23,12 @@ p{
 h1 {
   padding-left: 10px;
   color: #FEC10D;
-  font-family: iron;
+  font-family: 'iron';
 }
 
 h2{
   color: #FEC10D;
-  font-family: iron;
+  font-family: 'iron';
 }
 li {
   font-size: 18px;
