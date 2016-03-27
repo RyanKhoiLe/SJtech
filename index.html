@@ -20,7 +20,7 @@
 		<input id="specialCode" type='text' value="1234">
 		<button type="button" id="enterCode">Go</button>
 		<br>
-		<a href='#' id="searchLink"><h2 id="searchLinkDisplay">Search for an exhibit</h2></a>
+		<a href='#' id="searchLink">Search for an exhibit</a>
 	    <h2><b>Links to exhibits </b></h2>
 	    <a href="http://ryankhoile.github.io/SJtech/earthquakes.html"> <img src="earthquakeIcon.png"><br>Earthquake Shake Table</a>
 	    <hr>
@@ -36,7 +36,7 @@
   		function clickHandler(){
   			console.log("clicked" + input.value);
   			if(input.value === "101"){
-  				searchLinkDisplay.innerHTML = "Earthquakes";
+  				searchLink.innerHTML = "Earthquakes";
   				searchLink.setAttribute('href',"earthquakes.html");
   			}
   		}
