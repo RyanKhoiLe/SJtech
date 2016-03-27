@@ -10,13 +10,15 @@
   
   <body>
   	<script>
-  		var input = document.getElementById('specialCode')
+  		var input = document.getElementById('specialCode');
   		var myButton = document.getElementById('enterCode');
-  		var searchLink = document.getElementById('searchLink')
-  		myButton.addEventListener("click", clickHandler, false):
+  		var searchLink = document.getElementById('searchLink');
+  		var searchLinkDisplay = document.getElementById('searchLinkDisplay');
+  		myButton.addEventListener("click", clickHandler, false);
   		function clickHandler(){
+  			console.log("clicked" + input.value)
   			if(input.value === "101"){
-  				searchLink.innerHTML = "Earthquakes";
+  				searchLinkDisplay.innerHTML = "Earthquakes";
   				searchLink.setAttribute('href',"earthquakes.html");
   			}
   		}
@@ -31,7 +33,7 @@
 		<input id="specialCode" type='text' value="1234">
 		<button type="button" id="enterCode">Go</button>
 		<br>
-		<a href='#' id="searchLink">Search for an exhibit</a>
+		<a href='#' id="searchLink"><p id="searchLinkDisplay">Search for an exhibit</p></a>
 	    <h2><b>Links to exhibits </b></h2>
 	    <a href="http://ryankhoile.github.io/SJtech/earthquakes.html"> <img src="earthquakeIcon.png"><br>Earthquake Shake Table</a>
 	    <hr>
