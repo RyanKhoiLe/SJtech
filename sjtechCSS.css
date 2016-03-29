@@ -98,4 +98,11 @@ a:active {
   width: 90%;
 }
 
+table{
+  table-layout: fixed;
+}
+td{
+  width: 30%;
+}
+
 
