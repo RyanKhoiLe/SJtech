@@ -3,8 +3,62 @@
   <head>
     <title>SJTech Exhibit Database</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="sjtechCSS.css">
+     <link rel="icon" href="images/techMuseumIcon.png">
   </head>
+  
   <body>
-    <h1> Welcome to the San Jose Tech Museum Exhibit Database </h1>
+  
+  	<div id="headBar">
+    		<h1> SJ Tech DB </h1>
+    		<a href="index.html"><img id="logo" src="images/techMuseumLogo.png" alt="sjtech"></a>
+    	</div>
+    	<div id="wrapper">
+    		<h1> Welcome to the San Jose Tech Museum Exhibit Database! </h1> <br>
+		<h2> Enter exhibit code: </h2> <br>
+		<input id="specialCode" type='text' value="1234" align="center" style="background-color: #14161C;">
+		<br>
+		<button type="button" id="enterCode">Go</button>
+		<br>
+		<a href='#' id="searchLink" style="padding-top: 10px;">Search for an exhibit</a>
+		<hr>
+	    <h2><b>Links to exhibits </b></h2>
+	    <table>
+	    	<tr>
+	    		<td><a href="earthquakes.html"> <img src="images/earthquakeIcon.png" width="80%"><br>Earthquake Shake Table</a> </td>
+	    		<td><a href="jetpackChair.html"><img src="images/jetpackIcon.png" width="80%"><br>Jetpack Chair</a> </td>
+	    		<td><a href="tornadoes.html"><img src="images/tornadoIcon.png" width="80%"><br>Tornadoes</a> </td>
+	    	</tr>
+	    	<tr>
+	    		<td><a href="volcanoes.html"><img src="images/volcanoIcon.png" width="80%"><br>Volcanoes</a></td>
+	    		<td><a href="tsunmais.html"><img src="images/tsunamiIcon.png" width="80%"><br>Tsunamis</a></td>
+	    		<td><a href="jetPlanes.html"><img src="images/jetPlane.png" width="80%"><br>Jet Planes</a></td>
+	    	</tr>
+	    	<tr>
+	    		<td><a href="spaceTravel.html"><img src="images/spaceIcon.png" width="80%"><br>Space Travel</a></td>
+	    		<td><a href="rocketPropulsion.html"><img src="images/spaceTravelIcon.png" width="80%"><br>Rockets</a></td>
+	    		<td><a href="pangaea.html"><img src="images/pangaeaIcon.png" width="80%"><br>Pangaea</a></td>
+	    	</tr>
+	    </table>
+	    
+	    <hr>
+	    
+	
+	</div>
+		<script>
+  		var input = document.getElementById("specialCode");
+  		var myButton = document.getElementById("enterCode");
+  		var searchLink = document.getElementById("searchLink");
+  		var searchLinkDisplay = document.getElementById("searchLinkDisplay");
+  		myButton.addEventListener("click", clickHandler, false);
+  		function clickHandler(){
+  			console.log("clicked" + input.value);
+  			if(input.value === "101"){
+  				searchLink.innerHTML = "Earthquakes";
+  				searchLink.setAttribute('href',"earthquakes.html");
+  			}
+  		}
+  	</script>
   </body>
-</html
+</html>

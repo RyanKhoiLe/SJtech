@@ -1,0 +1,108 @@
+//***
+* Created by Khoi Le and Nikolai Flowers, March 25, 2016
+*//
+@font-face{
+  font-family: "iron font";
+  src: url("http://ryankhoile.github.io/SJtech/ironAndBrine.ttf") format('truetype');
+}
+#specialCode, textarea{
+  border: 0px solid #2E3092;
+  box-shadow: 0 0 5px 3px #2E3092;
+  color: #FEC10D;
+  font-size: 24px;
+  text-align: center;
+}
+
+body {
+  background-color: #E6E6FA;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  
+}
+#logo {
+  position: absolute;
+  top: 10px;
+  margin-left: 80%;
+  height: 70%;
+}
+p{
+  color: #FEC10D;
+}
+h1 {
+  padding-left: 10px;
+  color: #FEC10D;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2{
+  color: #FEC10D;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+li {
+  font-size: 18px;
+}
+hr{
+  height: 0px;
+  border: 0;
+  color: #2E3092;
+  background-color: #2E3092;
+  box-shadow: 0 0 8px 3px #2E3092;
+}
+hr:after{
+  content: "\00a0";  /* Prevent margin collapse */
+}
+
+strong{
+  color: #F47920;
+}
+
+a:link{
+  color: #005EFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3256C9;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#wrapper {
+  position: absolute;
+  border: 0px solid #2E3092;
+  top: 80px;
+  left: 0px;
+  width: 100%;
+  margin-top: 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #14161C;
+}
+
+#headBar{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: black;
+}
+
+#bodyBox{
+  position: absolute;
+  top: 100px;
+}
+
+.video{
+  width: 90%;
+}
+
+table{
+  table-layout: fixed;
+}
+td{
+  width: 30%;
+}
+
+
